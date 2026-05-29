@@ -69,3 +69,12 @@ docker --version
 -Monitor security events
 
 -Analyze generated alerts
+
+Tools Used
+Tool	        Purpose
+Nmap	        Port Scanning
+Metasploit	  Exploitation
+Wazuh	        SIEM Monitoring
+Docker	      Wazuh Deployment
+
+This project provided practical experience in penetration testing and security monitoring using offensive and defensive cyber security tools.
