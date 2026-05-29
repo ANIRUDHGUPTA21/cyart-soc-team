@@ -70,11 +70,16 @@ docker --version
 
 -Analyze generated alerts
 
-Tools Used
-Tool	        Purpose
-Nmap	        Port Scanning
-Metasploit	  Exploitation
-Wazuh	        SIEM Monitoring
-Docker	      Wazuh Deployment
+# Tools Used
+
+| Tool | Purpose |
+|------|----------|
+| Kali Linux | Penetration Testing |
+| Nmap | Port Scanning |
+| Metasploit | Exploitation |
+| Wazuh | SIEM Monitoring |
+| Docker | Wazuh Deployment |
+| Metasploitable2 | Vulnerable Target Machine |
+| VirtualBox | Virtual Environment |
 
 This project provided practical experience in penetration testing and security monitoring using offensive and defensive cyber security tools.
